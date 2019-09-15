@@ -6,3 +6,6 @@ htmlcov
 *.sw?
 .DS_Store
 venv
+
+# virtual env
+.env
