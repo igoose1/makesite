@@ -213,7 +213,7 @@ def main():
               list_layout, item_layout, blog='blog', title='Блог', **params)
 
     # Create RSS feeds.
-    make_list(blog_posts, '_site/blog/rss.xml',
+    make_list(blog_posts, '_site/blog/feed.xml',
               feed_xml, item_xml, blog='blog', title='Блог', **params)
 
 
