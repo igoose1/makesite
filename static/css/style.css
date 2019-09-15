@@ -2,8 +2,9 @@
 body {
     margin: 0;
     line-height: 1.5em;
-    color: #333333;
-    font-family: helvetica, arial, sans-serif;
+    color: #000000;
+    /* font-family: helvetica, arial, sans-serif; */
+    font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,9 +35,9 @@ nav section, header section, main, footer section {
 
 /* Navigation panel */
 nav {
-    background: #333333;
+    background: #000000;
     border-bottom: thin solid #111111;
-    line-height: 3em;
+    line-height: 1.5em;
 }
 
 nav a {
@@ -44,7 +45,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: #cccccc;
+    color: #ffffff;
 }
 
 nav a:hover, nav a:active {
@@ -63,7 +64,6 @@ nav a:hover, nav a:active {
 footer {
     background: #f0f0f0;
     border-top: thin solid #e0e0e0;
-    margin-top: 2em;
     padding: 1em 0;
     box-shadow: 0 100vh 0 100vh #f0f0f0;
     text-align: center;
@@ -97,14 +97,13 @@ article h1 a:link, article h1 a:visited,
 article h2 a:hover, article h2 a:active,
 article h1 a:hover, article h1 a:active,
 .more:hover, .more:active {
-    color: #777777;
+    color: #000000;
 }
 
 p.meta {
     margin-top: 0;
     font-size: 0.8em;
-    color: #777777;
-    font-style: italic;
+    color: #000000;
 }
 
 p.summary {
