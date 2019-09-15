@@ -175,8 +175,8 @@ def main():
     # Default parameters.
     params = {
         'base_path': '',
-        'subtitle': 'Lorem Ipsum',
-        'author': 'Admin',
+        'subtitle': 'Oskar Sharipov',
+        'author': 'Oskar Sharipov',
         'site_url': 'http://localhost:8000',
         'current_year': datetime.datetime.now().year
     }
