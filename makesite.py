@@ -196,9 +196,9 @@ def main():
     # Default parameters.
     params = {
         'base_path': '',
-        'subtitle': 'Oskar Sharipov',
-        'author': 'Oskar Sharipov',
-        'site_url': 'http://localhost:8000',
+        'subtitle': 'Оскар Шарипов',
+        'author': 'Оскар Шарипов',
+        'site_url': 'http://www.oskar.pub',
         'current_year': datetime.datetime.now().year
     }
 
