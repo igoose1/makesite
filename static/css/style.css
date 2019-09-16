@@ -91,7 +91,7 @@ article {
 article h2 a:link, article h2 a:visited,
 article h1 a:link, article h1 a:visited,
 .more:link, .more:visited {
-    color: #333333;
+    color: #000000;
 }
 
 article h2 a:hover, article h2 a:active,
