@@ -126,16 +126,13 @@ body pre, code {
 }
 
 body pre {
-    padding: 0.5em;
-    border-radius: 0.4em;
+    padding: 0.3em;
     box-shadow: 0.1em 0.1em 0.1em #00000030;
 }
 
 code {
-    padding: 0.2em;
-    border-radius: 0.5em;
+    padding: 0.01em;
 }
-
 
 /* RSS */
 .rss {

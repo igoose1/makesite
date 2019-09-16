@@ -102,8 +102,17 @@ def read_content(filename):
         try:
             if _test == 'ImportError':
                 raise ImportError('Error forced by test')
+            extension_configs = {
+                'codehilite': {
+                    'linenums': 'False',
+                    'guess_lang': 'False'
+                }
+            }
             import markdown
-            md = markdown.Markdown(extensions=['smarty', 'fenced_code', 'toc'])
+            md = markdown.Markdown(
+                extensions=['smarty', 'codehilite', 'toc'],
+                extension_configs=extension_configs
+            )
             text = md.convert(text)
         except ImportError as e:
             log('WARNING: Cannot render Markdown in {}: {}', filename, str(e))
