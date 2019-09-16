@@ -76,6 +76,12 @@ def rfc_2822_format(date_str):
     return d.strftime('%a, %d %b %Y %H:%M:%S +0000')
 
 
+def slugify(string, separator):
+    from urllib.parse import quote
+    result = quote(string.replace(' ', separator))
+    return result
+
+
 def read_content(filename):
     """Read content and metadata from file into a dictionary."""
     # Read file content.
@@ -106,6 +112,11 @@ def read_content(filename):
                 'codehilite': {
                     'linenums': 'False',
                     'guess_lang': 'False'
+                },
+                'toc': {
+                    'marker': '',
+                    'permalink': '🔗',
+                    'slugify': slugify
                 }
             }
             import markdown

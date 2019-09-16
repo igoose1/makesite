@@ -100,6 +100,11 @@ article h1 a:hover, article h1 a:active,
     color: #000000;
 }
 
+.headerlink {
+    padding: 0.2em;
+    font-size: 0.8em;
+}
+
 p.meta {
     margin-top: 0;
     font-size: 0.8em;
