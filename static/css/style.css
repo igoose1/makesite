@@ -145,9 +145,8 @@ code {
 
 /* RSS */
 .rss {
-    padding: 0.3em 0.35em;
-    border-radius: 0.25em;
-    font-size: 0.75em;
+    padding: 0.1em 0.1em;
+    border-radius: 0.2em;
     font-weight: bold;
 }
 
