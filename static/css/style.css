@@ -105,6 +105,10 @@ article h1 a:hover, article h1 a:active,
     font-size: 0.8em;
 }
 
+hr {
+    width: 90%;
+}
+
 p.meta {
     margin-top: 0;
     font-size: 0.8em;
