@@ -121,7 +121,7 @@ def read_content(filename):
             }
             import markdown
             md = markdown.Markdown(
-                extensions=['smarty', 'codehilite', 'toc'],
+                extensions=['smarty', 'codehilite', 'toc', 'mdx_linkify'],
                 extension_configs=extension_configs
             )
             text = md.convert(text)
