@@ -4,7 +4,7 @@
 <channel>
 <title>{{ title }}</title>
 <link>{{ site_url }}/</link>
-<description>Блог Оскара Шарипова</description>
+<description>Записи Оскара Шарипова</description>
 
 {{ content }}
 

@@ -225,17 +225,17 @@ def main():
                page_layout, **params)
 
     # Create blogs.
-    blog_posts = make_pages('content/blog/*.md',
-                            '_site/blog/{{ slug }}/index.html',
+    blog_posts = make_pages('content/notes/*.md',
+                            '_site/notes/{{ slug }}/index.html',
                             post_layout, blog='blog', **params)
 
     # Create blog list pages.
-    make_list(blog_posts, '_site/blog/index.html',
-              list_layout, item_layout, blog='blog', title='Блог', **params)
+    make_list(blog_posts, '_site/notes/index.html',
+              list_layout, item_layout, blog='blog', title='Записи', **params)
 
     # Create RSS feeds.
     make_list(blog_posts, '_site/blog/feed.xml',
-              feed_xml, item_xml, blog='blog', title='Блог', **params)
+              feed_xml, item_xml, blog='blog', title='Записи', **params)
 
 
 # Test parameter to be set temporarily by unit tests.
